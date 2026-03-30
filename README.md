@@ -16,7 +16,7 @@ In order to use the controller with the Next, you have to:
 <br/>__OUT 9275, 138: OUT 9531, 8__
 <br/>  _(Writing 8 to port 138 enables the port forwarding for port 1FFD to allow the I/O cycles to show up on the expansion bus.)_
 <br/>__OUT 9275, 128: OUT 9531, 8__
-<br/>  _(Writing 8 to port 138 enables the expansion bus.)_
+<br/>  _(Writing 8 to port 128 enables the expansion bus.)_
 5. Press Reset button.
 6. Now go into BASIC again, enter the CAT command and see if it works!
 I know that's pretty convoluted, but who knows, maybe Next developers can be talked into adding an appropriate option to the menu? ;-)
