@@ -25,7 +25,7 @@ I know that's pretty convoluted, but who knows, maybe Next developers can be tal
 There are three buttons on the controller:
 * The upper one (blue on the photo): switches disk side – you can e.g. format one side of a 3,5” floppy, then press this button and format/use the other side.
 * The middle one (green): forces the READY signal when using IBM disk drives.
-* The lower one (red): switches drives A and B.
+* The lower one (red): swaps drives A and B.
 
 All these buttons can be used when the computer is switched on (obviously not in the middle of a disk operation).
 ## General remarks
