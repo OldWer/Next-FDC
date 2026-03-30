@@ -3,7 +3,7 @@ A floppy drive controller for the ZX Spectrum Next (issues 1 and 2) based on the
 ![Next FDC PCB](images/fdc1.jpg)
 Please note that in order to actually use the floppy drive with the Next you have to switch the computer into +3/+3e personality, change some settings and also issue several OUT commands (see below).
 ## How to make it?
-The build is pretty self-explanatory. The Bill of Materials is available in the _bom_ directory and all the parts are described on the PCB. The case model is available in the _STL_ directory. Actual FDC chips (uPD765 and SED9420) are still available pretty cheaply on Aliexpress (and I never got a fake one when ordering).
+The build is pretty self-explanatory. The gerbers are in the _gerbers_ directory; I have used recommended JLCPCB settings. The Bill of Materials is available in the _bom_ directory and all the parts are described on the PCB. The case model is available in the _STL_ directory. Actual FDC chips (uPD765 and SED9420) are still available pretty cheaply on Aliexpress (and I never got a fake one when ordering).
 ![Next FDC PCB](images/fdc3.jpg)
 ## How to use it?
 In order to use the controller with the Next, you have to:
