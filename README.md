@@ -1,5 +1,6 @@
 # Next-FDC
 A floppy drive controller for the ZX Spectrum Next (issues 1 and 2) based on the ZX Spectrum +3 FDC circuit. I have previously designed a version of this FDC that is compatible with the ZX Spectrum +2A and „turns it” into Spectrum +3, but it requires three signals (DRD, DRW, MTR) that are not present on the Next’s expansion bus (this applies to issues 1 and 2, issue 3 will have these signals on the bus). However, they can be fairly easily synthesized externally based on several data/address lines and that’s what I have done in this version.
+<br/>The Next-FDC also works with regular ZX Spectrum +2A (and some clones, such as Sizif-512 and Harlequin 128), and I fully expect it to work with ZX Next issue 3 also (there is just a little bit of redundancy, since the controller creates signals which are already present).
 ![Next FDC PCB](images/fdc1.jpg)
 Please note that in order to actually use the floppy drive with the Next you have to switch the computer into +3/+3e personality, change some settings and also issue several OUT commands (see below).
 ## How to make it?
