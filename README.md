@@ -31,6 +31,7 @@ All these buttons can be used when the computer is switched on (obviously not in
 ## General remarks
 * To use two IBM floppy drives, please use a floppy cable with the twist. To use a Gotek and an IBM drive, set the Gotek to DS1 and use a cable with the twist.
 * Please note that to use HD floppies you have to cover the HD hole (e.g. with a piece of self-adhesive tape).
+* Many thanks to Allen Albright and Tim Gilberts from the ZX Spectrum Next FB group, who had helped me with configuring the Next to support the FDC.
 * If in doubt, contact me at oldwer@op.pl, I will be happy to help.
 
 
